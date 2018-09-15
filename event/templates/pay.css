@@ -1,6 +1,6 @@
 .bg {
     /* The image used */
-    background-image:1.png;
+    background-image:p.jpg;
 
     /* Full height */
     height: 100%;
@@ -9,7 +9,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
+
 .modalBox {
   position: fixed; /* create the modal window layer, and have it fill the entire screen */
   top: 0;
@@ -31,55 +33,4 @@
   margin: 10% auto; /* center the window horizontally */
   padding: 5px;
   background: #fff;
-}
-
-
-h1 {
-  color: white;
-  text-align: center;
-  padding-top: 60px;
-}
-h3
-{
-	text-align: center;
-	color: white;
-}
-
-.card-hover .reveal {
-    visibility: hidden;
-    opacity: 0;
-    height: 0;
-    padding: 0;
-}
-
-.card-hover:hover .reveal {
-    height: auto;
-    visibility: visible;
-    opacity: 10;
-    transition: opacity 1s ease;
-}
-
-
-p
-{
-	text-align: center;
-	font-family: 'Electrolize';
-}
-
-
-.button {
-    background-color: #ddd;
-    border: none;
-    color: black;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 16px;
-}
-
-.button:hover {
-    background-color: #f1f1f1;
 }

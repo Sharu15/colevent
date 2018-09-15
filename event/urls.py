@@ -15,7 +15,16 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from college.views import front,file,music,dance,art,film,coding,lit
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('front/',front),
+    path('file/',file),
+    path('music/',music),
+    path('dance/',dance),
+    path('art/',art),
+    path('coding/',coding),
+    path('lit/',lit),
+    path('film/',film)
 ]
